@@ -477,6 +477,7 @@ export class ConfigurableModel<
       configurableFields: this._configurableFields,
       configPrefix: this._configPrefix,
       queuedMethodOperations: newQueuedOperations,
+      profile: this._profile,
     });
   }
 
